@@ -1,0 +1,55 @@
+.layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.links button{
+  height: 70px;
+}
+
+.btn-link{
+  color: white;
+}
+
+.outlet{
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 320px){
+  .links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 481px){
+  .links button{
+    height: 100px;
+  }
+
+  .layout{
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .links button{
+    height: 100px;
+  }
+
+  .layout{
+    padding: 15px;
+  }
+}

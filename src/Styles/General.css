@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+.info{
+  margin-top: -100px;
+}
+
+.info h2{
+  color: steelblue;
+  font-size: 2rem;
+  font-family: Assistant;
+}
+
+.info h5{
+  color: steelblue;
+  font-size: 1.5rem;
+  font-family: Caveat;
+}
+
+button a{
+  color: white;
+  font-family: Assistant;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant&display=swap');
+
+.sides{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 15px;
+  place-items: center;
+  margin: 50px 30px;
+  height: 70vh;
+}
+
+.left h3{
+  font-size: 2rem;
+  font-family: Assistant;
+  font-weight: 900;
+  color: steelblue;
+}
+
+.left p{
+  font-size: 1.5rem;
+  font-family: Assistant;
+  font-weight: 900;
+  line-height: 35px;
+}
+
+button{
+  border: 0;
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+  font-family: Assistant;
+  border-radius: 5px;
+}
+
+button:hover{
+  transform: scale(0.9);
+}
+
+button .child{
+  color: white;
+  text-decoration: none;
+}
+
+.right img{
+  position: relative;
+  border-radius: 0;
+  height: 500px;
+  z-index: -1;
+}
+
+/* @media only screen and (max-width: 481px){
+  .right img{
+    display: none;
+  }
+} */
